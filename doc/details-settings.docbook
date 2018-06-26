@@ -27,20 +27,23 @@
 
 <variablelist>
   <varlistentry>
-    <term><guilabel>Price Precision</guilabel></term>
+    <term><guilabel>Startup options</guilabel></term>
     <listitem>
-      <para>Enter how many digits of precision your prices will have after the
-        decimal point.  For example, setting this to 2 will result in prices
-        like 35.18, where setting it to 4 might cause the same price to show
-        35.1791</para>
+      <para>Checking this box will allow the program to display the splash
+      screen at the start of the program. When the screen appears you will
+      be able to also see which version of the program you are running in the 
+      lower left hand corner.  Unchecking the box prevents the splash screen 
+      from appearing.</para>
     </listitem>
   </varlistentry>
 
   <varlistentry>
-    <term><guilabel>Autosave periodically</guilabel></term>
+    <term><guilabel>Autosave options</guilabel></term>
     <listitem>
-      <para>Check this box if you wish &kmymoney; to autosave your files
-        periodically. The default is 10 minutes.</para>
+      <para>Checking the Autosave periodically box will instruct &kmymoney; to 
+      autosave your files at a defined timeframe. The program default is set at
+      10 minutes. You can change this setting from 0 (backup immediately after 
+      entering a transaction) upto 60 minutes.</para>
     </listitem>
   </varlistentry>
 
